@@ -2,7 +2,7 @@
 {
     public class RoomGenerator
     {
-        public int MinWidth = 10;
+        public int MinWidth = 5;
         public int MaxWidth = 20;
         public int MinHeight = 5;
         public int MaxHeight = 20;
@@ -17,8 +17,8 @@
 
             return new Room()
             {
-                Height = size.X,
-                Width = size.Y,
+                Height = size.Y,
+                Width = size.X,
                 Position = new Point(x, y)
             };
         }
