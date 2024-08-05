@@ -12,8 +12,8 @@
             roomGenerator.Generate(dungeon);
 
             //Между комнатами заполнить лабиринтом
-            var hallGenerator = new HallwayGenerator(/*параметры генератора*/);
-            hallGenerator.Generate(dungeon);
+            var hallwayGenerator = new HallwayGenerator(/*параметры генератора*/);
+            hallwayGenerator.Generate(dungeon);
 
             //Связать комнаты и лабаиринт
             throw new NotImplementedException();
